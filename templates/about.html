@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar — About</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>H</span>aidar</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about" class="active">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">Tentang Saya</h3>
+            <div class="about-content">
+                <p>Saya Haidar, <span class="highlight">mahasiswa Informatika</span> semester 3 di Universitas Nahdlatul Ulama Yogyakarta. Ketertarikan saya pada web dimulai sejak SMK jurusan RPL, saat pertama kali belajar desain UI/UX, frontend, dan backend dalam satu proyek utuh.</p>
+                <p>Sekarang saya fokus pada <span class="highlight">pengembangan full-stack</span> &mdash; dari Next.js, Prisma, dan PostgreSQL untuk proyek pribadi, sampai Flask dan Python di perkuliahan. Di luar kampus, saya membangun ChroaCo., brand streetwear minimalis lengkap dengan website e-commerce-nya sendiri.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Perjalanan</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="year">Sekarang</div>
+                    <h4>Informatika &mdash; UNU Yogyakarta</h4>
+                    <p>Semester 3, belajar Pemrograman Web, Basis Data, Jaringan Komputer, UI/UX, dan Kecerdasan Buatan. Sambil kuliah, membangun ChroaCo. dan ikut lomba web development.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">Masa SMK</div>
+                    <h4>Pelatihan di Steqhoq Robotika Indonesia</h4>
+                    <p>Belajar standar pengerjaan program di perusahaan memakai Vue.js lewat proyek sistem pengelolaan warehouse.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2022</div>
+                    <h4>SMK Jurusan RPL</h4>
+                    <p>Pertama kali serius belajar pemrograman web. Tugas akhirnya (UKK) berupa website company profile.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2006</div>
+                    <h4>Lahir</h4>
+                    <p>Mulai petualangan di dunia ini.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="quote">
+                "Talk is cheap. Show me the code."
+                <cite>&mdash; Linus Torvalds</cite>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 HaidarMustt
+    </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar — Blog</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>H</span>aidar</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog" class="active">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">Catatan</h3>
+            <div class="blog-grid stagger">
+                <div class="blog-card">
+                    <div class="date">15 Okt 2026</div>
+                    <h4>Bikin Portofolio Dark Glass</h4>
+                    <p>Pertama kali pakai backdrop-filter dan token warna di :root. Ganti satu variabel, seluruh tema ikut berubah.</p>
+                    <span class="tag">CSS</span>
+                </div>
+                <div class="blog-card">
+                    <div class="date">12 Okt 2026</div>
+                    <h4>Push Pertama ke GitHub Pakai SSH</h4>
+                    <p>Bikin kunci ed25519, daftarkan ke GitHub, lalu git push tanpa ketik password lagi. Ternyata nggak seribet kelihatannya.</p>
+                    <span class="tag">Git</span>
+                </div>
+                <div class="blog-card">
+                    <div class="date">12 Okt 2026</div>
+                    <h4>Tanda ":" di git config --list</h4>
+                    <p>Bukan error! Itu pager. Tekan q buat keluar, atau pakai git config --global --list biar langsung kelihatan.</p>
+                    <span class="tag">Git</span>
+                </div>
+                <div class="blog-card">
+                    <div class="date">9 Okt 2026</div>
+                    <h4>Struktur Folder Flask</h4>
+                    <p>templates/ buat HTML, static/ buat CSS dan gambar, app.py buat route. Flask otomatis nyari file di folder itu.</p>
+                    <span class="tag">Flask</span>
+                </div>
+                <div class="blog-card">
+                    <div class="date">Sep 2026</div>
+                    <h4>Belajar dari Midtrans Sandbox</h4>
+                    <p>Integrasi pembayaran di ChroaCo. harus dites end-to-end di sandbox dulu sebelum berani dipakai transaksi beneran.</p>
+                    <span class="tag">Next.js</span>
+                </div>
+                <div class="blog-card">
+                    <div class="date">Sep 2026</div>
+                    <h4>Supabase Free Tier Suka Tidur</h4>
+                    <p>Project Supabase gratis bisa auto-pause kalau lama nggak dipakai. Pelajaran: cek status database sebelum panik debugging.</p>
+                    <span class="tag">Database</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 HaidarMustt
+    </footer>
+</body>
+</html>

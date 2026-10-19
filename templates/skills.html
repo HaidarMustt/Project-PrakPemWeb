@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar — Skills</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>H</span>aidar</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills" class="active">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">Keahlian</h3>
+            <div class="stagger">
+                <div class="skill">
+                    <div class="skill-name"><span>HTML &amp; CSS</span><span>90%</span></div>
+                    <div class="bar" style="--fill:90%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><span>JavaScript &amp; Next.js</span><span>80%</span></div>
+                    <div class="bar" style="--fill:80%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><span>UI/UX Design</span><span>80%</span></div>
+                    <div class="bar" style="--fill:80%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><span>Database (PostgreSQL &amp; Prisma)</span><span>75%</span></div>
+                    <div class="bar" style="--fill:75%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><span>Python &amp; Flask</span><span>70%</span></div>
+                    <div class="bar" style="--fill:70%"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name"><span>Git &amp; GitHub</span><span>70%</span></div>
+                    <div class="bar" style="--fill:70%"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 HaidarMustt
+    </footer>
+</body>
+</html>
